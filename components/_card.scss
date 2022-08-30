@@ -1,0 +1,13 @@
+.card {
+  height: 50rem;
+  background-color: #fff;
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.7);
+  border-radius: 0.3rem;
+
+  &__text-box {
+  }
+  &__img-box {
+    background-image: linear-gradient($color-purple 0.3, $color-purple 0.3),
+      url("/img/photo-1.jpg");
+  }
+}
