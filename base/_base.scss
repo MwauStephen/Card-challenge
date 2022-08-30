@@ -11,5 +11,9 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   color: #000;
-  background-image: linear-gradient($color-primary, $color-primary);
+  background-image: linear-gradient(
+    to right bottom,
+    $color-primary-dark-2,
+    $color-primary-dark-2
+  );
 }
